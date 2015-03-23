@@ -1,0 +1,146 @@
+body {
+  font-family: "Bembo W01";
+  font-size: 1.3em;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern";
+  -webkit-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern=1";
+
+  width: 600px;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 0 10px 0 10px;
+  color: #555;
+
+}
+
+code {
+  font-family: "inconsolata";
+  font-size: 0.85em;
+  background-color: #eee;
+  padding: 1px 3px;
+}
+
+a {
+  color:#444;
+}
+
+a:visited {
+  color:#444;
+}
+
+a:hover {
+  text-decoration:none;
+  border:none;
+}
+
+h1 {
+  font-size:2.5em;
+  font-weight:normal;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  margin-top:15px;
+  margin-bottom:-5px;
+}
+
+h2 {
+  font-size: 1.6em;
+  line-height: 34px;
+  font-weight:normal;
+  margin: 0 0 0.25em -1.5px;
+  padding: 0;
+  text-align: left;
+}
+
+h3 {
+  font-size: 1.4em;
+  font-weight:normal;
+  margin-top:16px;
+  margin-bottom:14px;
+}
+
+h4 {
+  font-size: 1.2em;
+  font-weight:normal;
+  margin-top:16px;
+  margin-bottom:16px;
+}
+
+p {
+  margin:0 0 0.4em 0;
+}
+
+hr {
+  color: #aaa;
+  background-color:#aaa;
+  height:1px;
+  border:0;
+  margin: 0.4em 0;
+}
+
+.mini-photos {
+  height: 193px;
+  padding: 0.1em 0 0 0;
+}
+
+.mini-photos img {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  float: left;
+  width: 188px;
+}
+
+pre .output {
+  color: #777;
+}
+
+pre .prompt {
+  color: #00f;
+}
+
+ul {
+  padding-left: 25px;
+}
+
+li {
+  padding: 2px 0;
+}
+
+.tagline {
+  text-align: center;
+  width: 100%;
+  margin: 0.3em 0;
+}
+
+.footer {
+  text-align: center;
+  width:310px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media handheld, only screen and (max-width: 767px) {
+  body {
+    width: 350px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  .mini-photos {
+    height: 1050px;
+    padding: 7px 0;
+  }
+
+  .mini-photos img {
+    width: 350px;
+  }
+
+  #fork-me {
+    display: none;
+  }
+}
