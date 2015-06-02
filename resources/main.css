@@ -46,19 +46,20 @@ h1 {
 }
 
 h2 {
-  font-size: 1.6em;
+  font-size: 1.7em;
   line-height: 34px;
   font-weight:normal;
-  margin: 0 0 0.25em -1.5px;
+  margin: 0 0 0.38em -1.5px;
   padding: 0;
-  text-align: left;
+  text-align: center;
 }
 
 h3 {
-  font-size: 1.4em;
+  font-size: 1.3em;
   font-weight:normal;
-  margin-top:16px;
-  margin-bottom:14px;
+  margin-top:12px;
+  margin-bottom:12px;
+  text-align: center;
 }
 
 h4 {
@@ -77,7 +78,11 @@ hr {
   background-color:#aaa;
   height:1px;
   border:0;
-  margin: 0.4em 0;
+  margin: 1em 0;
+}
+
+.time-place {
+  text-align: center;
 }
 
 .mini-photos {
