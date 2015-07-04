@@ -12,6 +12,7 @@ body {
   margin-right:auto;
   padding: 0 10px 0 10px;
   color: #555;
+  text-align:justify;
 
 }
 
@@ -23,11 +24,12 @@ code {
 }
 
 a {
-  color:#444;
+  color:#FF5D63;
+  text-decoration: none;
 }
 
 a:visited {
-  color:#444;
+  color:#FF5D63;
 }
 
 a:hover {
@@ -135,6 +137,21 @@ li {
   margin-right: auto;
 }
 
+.contacts {
+  margin-left:auto;
+  margin-right:auto;
+  height: 70px;
+}
+
+.contact {
+  width: 300px;
+  float: left;
+}
+
+.contact2 {
+  text-align: right;
+}
+
 @media handheld, only screen and (max-width: 767px) {
   body {
     width: 350px;
@@ -153,7 +170,36 @@ li {
     width: 350px;
   }
 
-  #fork-me {
-    display: none;
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+  }
+
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .contacts {
+    margin-left:auto;
+    margin-right:auto;
+    height: auto;
+  }
+
+  .contact {
+    width: 300px;
+    float: none;
+  }
+
+  .contact1 {
+    margin-bottom: 0.4em;
+  }
+
+  .contact2 {
+    text-align: left;
   }
 }
